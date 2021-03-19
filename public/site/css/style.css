@@ -1,0 +1,446 @@
+.clearfix::after {
+    display: block;
+    content: "";
+    clear:both;
+}
+
+* {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/subset-Gilroy-Regular.eot');
+    src: url('../fonts/subset-Gilroy-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-Gilroy-Regular.woff2') format('woff2'),
+        url('../fonts/subset-Gilroy-Regular.woff') format('woff'),
+        url('../fonts/subset-Gilroy-Regular.ttf') format('truetype'),
+        url('../fonts/subset-Gilroy-Regular.svg#Gilroy-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/subset-Gilroy-Bold.eot');
+    src: url('../fonts/subset-Gilroy-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-Gilroy-Bold.woff2') format('woff2'),
+        url('../fonts/subset-Gilroy-Bold.woff') format('woff'),
+        url('../fonts/subset-Gilroy-Bold.ttf') format('truetype'),
+        url('../fonts/subset-Gilroy-Bold.svg#Gilroy-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+/* @font-face {
+    font-family: Gilroy-Regular;
+    src: url(../fonts/Gilroy-Regular.ttf);
+}
+
+@font-face {
+    font-family: Gilroy-Bold;
+    src: url(../fonts/Gilroy-Bold.ttf);
+} */
+/* @font-face {
+    font-family: Inter-Medium;
+    src: url(../fonts/Inter-Medium.otf);
+} */
+/* 
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/subset-Inter-Regular.eot');
+    src: url('../fonts/subset-Inter-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-Inter-Regular.woff2') format('woff2'),
+        url('../fonts/subset-Inter-Regular.woff') format('woff'),
+        url('../fonts/subset-Inter-Regular.ttf') format('truetype'),
+        url('../fonts/subset-Inter-Regular.svg#Inter-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/subset-Inter-Medium.eot');
+    src: url('../fonts/subset-Inter-Medium.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-Inter-Medium.woff2') format('woff2'),
+        url('../fonts/subset-Inter-Medium.woff') format('woff'),
+        url('../fonts/subset-Inter-Medium.ttf') format('truetype'),
+        url('../fonts/subset-Inter-Medium.svg#Inter-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/subset-Inter-Bold.eot');
+    src: url('../fonts/subset-Inter-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/subset-Inter-Bold.woff2') format('woff2'),
+        url('../fonts/subset-Inter-Bold.woff') format('woff'),
+        url('../fonts/subset-Inter-Bold.ttf') format('truetype'),
+        url('../fonts/subset-Inter-Bold.svg#Inter-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} */
+
+
+
+/* ====  Header START  ===== */
+body {
+    /* font-family: 'Inter', Arial, Tahoma, sans-serif; */
+}
+div.site {
+    display: block;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+header {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 0 0 0 0px;
+    padding: 0;
+}
+
+div.header_center {
+    display: block;
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+
+
+/* ======== MAIN part START ----===== */
+
+main {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+}
+
+div.header_contain {
+    width: 100%;
+    padding: 15px 0;
+    margin: 0 auto 30px auto;
+
+}
+
+div.header_contain  h1 {
+    font-family: 'Gilroy';
+    font-size: 76px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #62abd8;
+
+}
+div.header_contain  h1  span {
+  color: #707070;
+
+}
+
+
+div.main_center {
+    display: block;
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+    max-width: 1200px;
+}
+
+form.worker_info {
+    display: block;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+div.form_row {
+    display: flex;
+    flex-wrap: wrap;
+    float: left;
+    align-items: center;
+    width: 33%;
+    margin: 0 auto 15px auto;
+}
+
+div.fcol-3 {
+    display: block;
+    /* float: left; */
+    width: 100%;
+}
+
+div.fcol-9 {
+    display: block;
+    /* float: right; */
+    width: 100%;
+}
+
+
+form.worker_info  label.inpt_label {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 3px 0px;
+    font-family: 'Gilroy';
+    font-size: 24px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.33;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+form.worker_info  input.inpt_info {
+    display: flex;
+    width: 100%;
+    max-width: 283px;
+    height: 47px;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 15px;
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+    border-radius: 32px;
+    border: 1px solid #bebebe;
+    outline: none;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+div.info_area {
+    display: block;
+    width: 100%;
+    margin: 25px auto;
+    font-family: 'Gilroy';
+  font-size: 68px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.32;
+  letter-spacing: normal;
+  text-align: left;
+  color: #707070;
+}
+div.info_area span {
+    color: #62abd8;
+}
+
+div.btn_area {
+    display: block;
+    width: 40%;
+    float: left;
+    margin: 25px auto;
+}
+
+div.btn_area div.info_btn{
+    display: block;
+    width: 100%;
+    margin: 0px auto 10px auto;
+    font-family: 'Gilroy';
+    font-size: 22px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.36;
+    letter-spacing: normal;
+    text-align: left;
+    color: #707070;
+}
+
+
+button.str-btn {
+    width: 252px;
+    height: 79px;
+    margin: 0px 0 0 0;
+    padding: 12px 43px 21px 39px;
+    border: none;
+    outline: none;
+    border-radius: 32px;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+    background-color: #fcbd00;
+    font-family: 'Gilroy';
+    font-size: 34px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.35;
+    letter-spacing: normal;
+    text-align: left;
+    color: #ffffff;
+  }
+
+  div.image_area {
+    display: block;
+    float: right;
+    width: 563px;
+    height: 490px;
+  }
+
+  div.image_area img {
+    display: block;
+    width: 563px;
+    height: 490px;
+  }
+
+/* div.form_row:hover  label.inpt_label {
+    color: #680101;
+    transform: scale(1.05);
+} */
+
+/* div.form_row input.inpt_info:focus  {
+    -webkit-box-shadow: 0 0 7px 5px #680101;
+box-shadow: 0 0 7px 5px #680101;
+} */
+
+
+/* div.form_row:hover  input.inpt_info  {
+    -webkit-box-shadow: 0 0 7px 5px #680101;
+box-shadow: 0 0 7px 5px #680101;
+} */
+
+/* div.form_row:hover  div.custom_select {
+    -webkit-box-shadow: 0 0 7px 5px #680101;
+box-shadow: 0 0 7px 5px #680101;
+} */
+
+div.pad_left {
+    padding-left: 10px;
+}
+div.pad_right {
+    padding-right: 10px;
+}
+div.pad__left_right {
+    padding: 0px 10px ;
+}
+
+.custom_select {
+    width: 100%;
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 500;
+    border-radius: 5px;
+    -webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+.custom_select2 {
+    width: 100%;
+    position: relative;
+    font-family: 'Inter';
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease-in-out;
+-moz-transition: all 0.3s ease-in-out;
+-ms-transition: all 0.3s ease-in-out;
+-o-transition: all 0.3s ease-in-out;
+transition: all 0.3s ease-in-out;
+}
+
+
+
+
+/** Relevant styles below this line **/
+
+.custom_select .selected { /* The select box */
+    display: inline-flex;
+    width: 100%;
+    cursor: pointer;
+    user-select: none;
+    align-items: center;
+    
+}
+  
+.custom_select .selected {
+    background: #fff;
+    padding: 13px 15px;
+    height: 46px;
+    font-family: 'Inter';
+    font-weight: normal;
+    font-size: 16px;
+    color: #000;
+    border-radius: 5px;
+    border: 1px solid #bebebe;
+    outline: none;
+}
+
+
+.custom_select  .selected:after { /* The "dropdown" arrow */
+    content: '';
+    box-sizing: content-box;
+    display: block;
+    float: right;
+    margin: 5px 0 5px 5px;
+    width: 24px;
+    height: 24px;
+    right: 15px;
+    color: #fff;
+    position: absolute;
+    background-image: url(../img/slct-down.svg);
+}
+
+
+
+.custom_select .fancy-select { /* Dropdown options container */
+    list-style: none;
+    width: 100%;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    border: 1px solid #bebebe;
+    background-color: #fff;
+    position: absolute;
+    z-index: 2;
+    user-select: none;
+}
+
+div.accses_area {
+    
+}
+
+/* === MAIN RIGHT NEWS SLIDER START ------ */
+
+
+/* ========= FOOTER PART START =---------------=========== */
+footer {
+    display: block;
+    width: 100%;
+}
+
+/* ========= FOOTER PART FINISH =---------------=========== */
